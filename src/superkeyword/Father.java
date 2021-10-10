@@ -1,0 +1,24 @@
+package superkeyword;
+
+public class Father {
+
+    int height = 10;
+    int numberOfSport = 3
+
+            public Father(){
+
+            }
+public Father (int height){
+        this.height = height
+    }
+public void educated(){
+    System.out.println("this father is efficient in java and selenium");
+
+    //super keyword in variables
+    public void athlecticSkills() {
+        int numberOfSport = super.numberOfSport;
+        System.out.println("child is practicing "+numberOfSport+" sports");
+    }
+    }
+}
+
